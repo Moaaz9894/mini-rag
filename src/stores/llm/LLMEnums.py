@@ -11,4 +11,17 @@ class OpenAIEnums(Enum):
     ASSISTANT = "assistant"
 
 
+class CoHereEnums(Enum):
+    SYSTEM = "SYSTEM"
+    USER = "USER"
+    ASSISTANT = "CHATBOT"
+
+    DOCUMENT = "search_documnet"
+    QUERY = "search_query"
+
+
+    class DocumentTypeEnum(Enum):
+        DOCUMENT = "documnet"
+        QUERY = "query"
+
 
